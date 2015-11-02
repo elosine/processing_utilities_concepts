@@ -8,14 +8,13 @@ float[][] svgwh; //width & height of svgPShape noteshape;
 
 PShape noteshape;
 int svgnum;
-String svgname = "";
+String svgname = "Bartok_pizz.svg";
+float svgscale = 0.8;
+float w, h;
 
 
 void setup() {
   size(500, 500);
-  spf = 1.0/frmrt;
-  monaco12 = loadFont("Monaco-12.vlw");
-  textFont(monaco12);
 
   svgnames = new IntDict();
   svgspath = sketchPath("svgs/");
@@ -36,12 +35,18 @@ void setup() {
   }
   svgnum = svgnames.get(svgname);
   noteshape = svgset[svgnum];
+  w=svgwh[svgnum][0];
+  h = svgwh[svgnum][1];
 } //end setup
 
 void draw() {
   background(25, 33, 47);
 
   shapeMode(CENTER);
-
-  shape(noteshape, svgwh[svgnum][0], svgwh[svgnum][1]);
+  noteshape.disableStyle();
+  stroke(255);
+  strokeWeight(3);
+noFill();
+ // fill(255);
+  shape(noteshape, width/2, height/2, w*svgscale, h*svgscale);
 }
