@@ -1,0 +1,8 @@
+/*
+
+Make sine wave class
+Implement a curve follower within each spotlight
+
+
+
+*/

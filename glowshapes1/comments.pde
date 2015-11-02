@@ -1,0 +1,11 @@
+/*
+Make Class
+Import into Spotlights
+Find some more shapes
+
+Spotlights control objects in an underlayer that go through the static obsticales
+
+Make horizontal lines that get progressively thicker
+
+
+*/

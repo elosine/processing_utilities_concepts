@@ -1,0 +1,22 @@
+/*
+try with array list and osc
+move into spotlights
+
+Spotlight collisions as collaboration
+  some rubberband type of physics where they spring back together
+
+squiggle for electroacoustic
+send trigger each time it renders and attack is based on clr pxl density
+Re Render for animation
+
+
+Make Class
+Import into Spotlights
+Find some more shapes
+
+Spotlights control objects in an underlayer that go through the static obsticales
+
+Make horizontal lines that get progressively thicker
+
+
+*/

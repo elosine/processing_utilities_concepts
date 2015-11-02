@@ -1,0 +1,21 @@
+
+color R46 = color(221,84,106);//Strong Red
+color R89 = color(129, 43, 67);//Dark Red
+color YR68 = color(243, 111, 46);//Orange
+color YR15 = color(248, 186, 43); //Pumpkin Yellow
+color B95 = color(100, 152, 178);//Light Grayish Cobalt
+color B28 = color(33, 114, 184);//Royal Blue
+color G46 = color(86, 157, 117);//Mistletoe
+color YG06 = color(196, 221, 140);//Yellowish Green 
+color BG07 = color(42, 171, 194);//Petroleum Blue
+color BV13 = color(133, 142, 198);//Hydrangea Blue
+color BV25 = color(127, 130, 164);//Grayish Violet
+color RV95 = color(175, 128 ,151);//Baby Blossoms
+color Y32 = color(244, 220, 197);//Cashmere
+color R81 = color(231, 185, 201);//Rose Pink
+color RV55 = color(231, 168, 204);//Hollyhock
+color R85 = color(211, 105, 143);//Rose Red
+color Y28 = color(210, 164, 105);//Lionet Gold
+color E47 = color(140, 118, 97);//Dark Brown
+color B100 = color(0);//Black
+color E50 = color(242, 233, 235);//Eggshell White

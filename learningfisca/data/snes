@@ -1,0 +1,11 @@
+controller
+x	xpad	3	SLIDER	x	0	1.0	0.0
+y	ypad	3	SLIDER	y	0	1.0	0.0
+l	l	1	BUTTON	4	0	0.0	0.0
+r	r	1	BUTTON	5	0	0.0	0.0
+by	by	1	BUTTON	3	0	0.0	0.0
+bx	bx	1	BUTTON	0	0	0.0	0.0
+bb	bb	1	BUTTON	2	0	0.0	0.0
+ba	ba	1	BUTTON	1	0	0.0	0.0
+sel	sel	1	BUTTON	8	0	0.0	0.0
+start	start	1	BUTTON	9	0	0.0	0.0
