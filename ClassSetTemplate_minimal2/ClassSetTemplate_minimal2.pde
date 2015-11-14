@@ -19,7 +19,7 @@ NewclassSet newclassz = new NewclassSet();
 class Newclass {
 
   // CONSTRUCTOR VARIALBES //
-int ix;
+  int ix;
   // CLASS VARIABLES //
 
   // CONSTRUCTORS //
@@ -50,7 +50,8 @@ class NewclassSet {
 
   // Remove Instance Method //
   void rmv(int ix) {
-    for (Newclass inst:cset) {
+    for (int i=cset.size ()-1; i>=0; i--) {
+      Newclass inst = cset.get(i);
       if (inst.ix == ix) {
         cset.remove(i);
         break;
@@ -60,7 +61,7 @@ class NewclassSet {
 
   // Draw Set Method //
   void drw() {
-    for (Newclass inst:cset) {
+    for (Newclass inst : cset) {
       inst.drw();
     }
   }//end drw method
