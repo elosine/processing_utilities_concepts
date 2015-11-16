@@ -30,6 +30,8 @@ void setup() {
     myserials[i] = new Serial(this, portnametemp, 9600); //populate myserials and open the ports
   }  // End for myserialnums
   // Initialize serialgates and serialdatas with 0s & empty strings respectively
+  serialgates = new int[myserialnums.length][serialheaders.length];
+  serialdatas = new String[myserialnums.length][serialheaders.length];
   for (int i=0; i<myserialnums.length; i++) {
     for (int j=0; j<serialheaders[i].length; j++) {
       serialgates[i][j] = 0;
@@ -43,13 +45,12 @@ void setup() {
 void draw() {
   // Use an if statement on a serialgate in draw to invoke actions
   //// Device-1, Header-"bt2"
-  if(serialgates[0][2] == 1){
+  if (serialgates[0][2] == 1) {
     // Run a function or action here
     // For example: someint = int(serialdatas[0][2]);
     // Or: movesomething();
     serialgates[0][2] = 0; // Reset gate to 0 to wait for next message
   }
-  
 } // End draw
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 // SERIAL EVENT /////////////////////////////////////////////////////////////////////////////////////////
