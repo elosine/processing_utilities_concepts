@@ -5,9 +5,9 @@ NewclassSet newclassz = new NewclassSet();
  *
  *
  /// PUT IN SETUP ///
- meosc.plug(newclassz, "mk", "/mknewclass");
- meosc.plug(newclassz, "rmv", "/rmvnewclass");
- meosc.plug(newclassz, "rmvall", "/rmvallnewclass");
+ osc.plug(newclassz, "mk", "/mknewclass");
+ osc.plug(newclassz, "rmv", "/rmvnewclass");
+ osc.plug(newclassz, "rmvall", "/rmvallnewclass");
  
  /// PUT IN DRAW ///
  newclassz.drw();
